@@ -11,11 +11,11 @@ Investigate location-based insights by extracting and visualizing data for speci
 Create interactive visualizations that enable users to filter and drill down into the data.
 Build a comprehensive dashboard using Tableau or Power BI, combining various visualizations to present key insights from the analysis.
 
-# Create a MongoDB Atlas Account
+## Create a MongoDB Atlas Account
 Sign up for a MongoDB Atlas account by visiting the MongoDB Atlas website and follow the registration process to set up your account and create a new project.
-# Set Up a Cluster
+## Set Up a Cluster
 Within your MongoDB Atlas project, set up a cluster. Choose the cloud provider and region for hosting your data, configure the cluster specifications, and create the cluster. This will serve as the database environment for storing the sample data.
-# Load the Airbnb Sample Data
+## Load the Airbnb Sample Data
 Once your cluster is set up, access the MongoDB Atlas dashboard. In the left-hand navigation menu, click on "Database Access" to create a database user with appropriate permissions for accessing and loading data. Then, select "Network Access" to set up IP whitelisting or configure other security measures.
-# Import Sample Data
+## Import Sample Data
 From the MongoDB Atlas dashboard, navigate to the "Clusters" page and click on your cluster. In the cluster view, select the "Collections" tab and click on the "Sample Data" button. Choose the "Load Sample Dataset" option, and MongoDB Atlas will import the Airbnb sample data into your cluster. The sample data typically includes collections for listings, reviews, and users.
